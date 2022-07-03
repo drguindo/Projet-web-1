@@ -9,7 +9,7 @@
 .couleur_verte {
   color: rgb(42, 165, 89);
 }
-#para_1{
+#para_1 {
   color: blue;
   text-align: center;
   font-size: 120%;
@@ -17,25 +17,13 @@
 .couleu_rouge {
   color: rgb(221, 22, 55);
 }
-h2 {
-  font-size: 24px;
-}
-p {
-  font-size: 15px;
-}
+
+/* le titre */
 h1 {
-  color: blue;
+  color: whitesmoke;
   text-align: center;
 }
-h2 {
-  color: brown;
-}
-p {
-  font-weight: bolder;
-}
-p {
-  line-height: 28px;
-}
+
 /* centre*/
 .centre {
   text-align: center;
@@ -50,6 +38,7 @@ p {
   font-size: 16px;
   color: blue;
 }
+/* couleur de l'arrière plan du body */
 .font_vert {
   background-color: powderblue;
 }
@@ -75,35 +64,32 @@ p {
   font-size: 20px;
   color: blue;
 }
-.img_logo{
-  vertical-align: super;
-  
-  
-}
 
 /*les cadre des textes du plus grand au plus petit*/
-#grand{
+#grand {
   width: 1800px;
-  border: 10px solid green;
+  border: 15px solid green;
   text-align: center;
   margin: 75px;
+  border-radius: 40px;
 }
-#moyen{
+#moyen {
   width: 1500px;
-         height: 70px;
-         border: 8px solid red;
-         max-width: 100%;
-         height: 70px;
+  height: 70px;
+  border: 8px solid red;
+  max-width: 100%;
+  height: 70px;
 }
-#petit{
-    margin: 20px 40px 20px;
-    border: 6px solid blue;
-    max-width: 270%;
-    height: 90px;
-    text-align: justify;
+#petit {
+  margin: 20px 40px 20px;
+  border: 16px solid rgba(230, 216, 216, 0.966);
+  max-width: 270%;
+  height: 90px;
+  text-align: justify;
+  background-color: rgba(6, 41, 235, 0.993);  
 }
 /*text justifier*/
-#justifier{
+#justifier {
   background-color: none;
   color: black;
   font-family: cursive;
@@ -111,24 +97,23 @@ p {
   text-align: justify;
 }
 /*les qutres cotés de marges*/
-.marge{
+.marge {
   margin-top: 20px;
   margin-bottom: 5px;
   margin-right: 150px;
   margin-left: 200px;
-  }
+}
 /*un cadre avec ces  marge*/
-.cadre_marge{
+.cadre_marge {
   border: 1px solid black;
   margin-top: 50px;
   margin-bottom: 10px;
   margin-right: 20px;
   margin-left: 20px;
   background-color: lightblue;
+  font-size: 25px;
 }
 /*la taille des images*/
-.taille_image{
-    width: 250px;
+.taille_image {
+  width: 250px;
 }
-
-
