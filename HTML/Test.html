@@ -1,67 +1,61 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Formulaire enregistrement patient</title>
-        <link rel="stylesheet" href="/CSS/style.css">
-        <link rel="stylesheet" href="/CSS/Style_Formulaire.css">
-<style>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/CSS/style_Affichage.css">
+</head>
+<body>
 
-</style>
-    </head>
+<h2>CSS Layout Float</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
 
-    <body class="font_vert">
-        
-              
-        <div class="marge">
-            <div id="grand">               
-                 <div id="petit">
-                    <div>
-                        <h1> APPLICATION DE COLLECT DE DONNES EN CHIRURGIE MAXILLO-FACIALE ET STOMATOLOGIE  </h1> 
-                    </div> 
-                    <p style="text-align:right;"><img  src="/Image/Patient.png" alt="patient" width="150" height="150" ></p>                     
-                 </div>                         
-            </div>
-        </div> 
-   
-        <div id="marge">
-            <h2 class="centre"> PATIENT</h2><hr> 
-        </div>
-       <h3> <a href="/HTML/Formulaire_Consultation.html" title="Retour formulaire patient">Allez Consltation </a></h3> 
-       
-    <div class="interligne"; >
-        <form action="/action_page.php">
-            <label for="IdPatient">IdPatient:</label>
-            <input type="text" id="IdPatient" name="IdPatient" value="ABC-08-06-22" ><br><br>
-            <label for="NomPatient">NomPatient:</label>
-            <input type="text" id="NomPatient" name="NomPatient" value="Amadou"> <br><br>
-            <label for="PrenomPatient">PrenomPatient:</label>
-            <input type="text" id="PrenomPatient" name="PrenomPatient" value="Dolo"><br><br>
-            <label for="AgePatient">AgePatient:</label>
-            <input type="text" id="AgePatien" name="AgePatient" value="20 ans"><br><br>
-            <label for="SexePatient">SexePatient:</label>
-            <input list="SexePatient" name="SexePatient">
-                <datalist id="SexePatient">
-                    <option value="M">
-                    <option value="F">
-                </datalist> <br><br>
-            <label for="Provenance">Provenance:</label>
-            <input type="text" id="Provenance" name="Provenance" value="BANDIAGARA"><br><br>
-            <label for="Ethnie">Ethnie:</label>
-            <input type="text" id="Ethnie" name="Ethnie" value="Dogon"><br><br>
-            <label for="Contacts">Contacts:</label>
-            <input type="text" id="Contacts" name="Contacts" value="76240641"> <br><br>
-            <label for="Mail">Mail:</label>
-            <input type="text" id="Mail" name="Mail" value="dralyab2@gmail.com"> <br><br>     
-            <input type="submit" value="Soumètre">
-          </form>
-    </div>
+<header>
+  <h3>Les actualites </h3>
+</header>
 
-     <div>
-        <ul>
-            <li><a href="../index.html">Retour Acceuil</a></li><li><a href="/HTML/Formulaire_Menu_Principal.html">Allez au menu principal</a></li><li><a href="login.html">Connectez-vous</a></li><li><a href="mailto:dralyab2@gmail.com?subject=Prise de contact">Ecrivez-moi</a></li><li><a href="tel:(+223)76240641"> contact mobile</a></li>
-        </ul>                     
-     </div> 
-        <p> Merci à bientôt</p>
-    </body>
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Acceuil</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section><hr><hr>
+<p>Image to use:</p>
+<img id="scream" src="/Image/Consultation_patient.png" alt="The Scream" width="220" height="277">
 
-</html> 
+<p>Canvas to fill:</p>
+<canvas id="myCanvas" width="250" height="300"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<p><button onclick="myCanvas()">Try it</button></p>
+
+<script>
+function myCanvas() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("scream");
+  ctx.drawImage(img,10,10);
+}
+</script>
+
+
+<hr><hr>
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+

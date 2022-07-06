@@ -12,18 +12,19 @@ ul {
 }
 
 li {
-  float: left;
+  float: left; 
+  font-size: 17px;   
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 20px;
-  text-decoration: none;
-  
+  padding: 16px;
+  text-decoration: none;    
 }
 
 li a:hover {
   background-color: #1508bd;
 }
+/*affichage de la page */

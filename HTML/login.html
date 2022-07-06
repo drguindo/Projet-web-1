@@ -1,15 +1,17 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulaire enregistrement patient</title>
         <link rel="stylesheet" href="/CSS/style.css">
         <link rel="stylesheet" href="/CSS/Style_Formulaire.css">
+        <link rel="stylesheet" href="/CSS/style_Forms.css">
 <style>
 
 </style>
     </head>
 
-    <body class="font_vert">
+    <body>
         
               
         <div class="marge">
@@ -23,19 +25,19 @@
             </div>
         </div> 
    
-        <div id="marge">
-            <h2 class="centre">NSCRIPTION A LA PLATFORME</h2><hr> 
+        <div>
+            <h2 class="centre">INSCRIPTION A LA PLATFORME</h2><hr> 
         </div> 
     <div class="form_centre">
   
-        <form  action="/action_page.php" class="form_formulaire">
+        <form  action="/action_page.php" class="form_formulaire" >
           <div class="form_div";>
             <label for="NomPatient">NomPatient:</label>
             <input type="text" id="NomPatient" name="NomPatient" value="Amadou"> <br><br>
             <label for="PrenomPatient">PrenomPatient:</label>
             <input type="text" id="PrenomPatient" name="PrenomPatient" value="Dolo"><br><br>
             <label for="AgePatient">AgePatient:</label>
-            <input type="text" id="AgePatien" name="AgePatient" value="20 ans"><br><br>
+            <input type="text" id="AgePatient" name="AgePatient" value="20 ans"><br><br>
             <label for="SexePatient">SexePatient:</label>
             <input list="SexePatient" name="SexePatient">
                 <datalist id="SexePatient">
@@ -49,13 +51,15 @@
             <label for="Contacts">Contacts:</label>
             <input type="text" id="Contacts" name="Contacts" value="76240641"> <br><br>
             <label for="Mail">Mail:</label>
-            <input type="text" id="Mail" name="Mail" value="dralyab2@gmail.com"> <br><br>     
-            <input type="submit" value="Soumètre">
+            <input type="text" id="Mail" name="Mail" value="dralyab2@gmail.com"> <br><br> 
+            <label for="pwd">Mot de pass:</label>
+            <input type="password" id="pwd" name="pwd"> <br><br>   
+            <input type="submit" value="Soumètre" >
           </div>  
            <div class="form_div">
          <label for="message">votre profil et attente: </label> 
          <textarea name="message" rows="10" cols="30">Une petite description sur votre profil</textarea>  <br><br>
-      </div> 
+           </div> 
         </form>
     </div>
 </div><hr>

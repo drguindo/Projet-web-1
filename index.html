@@ -1,13 +1,14 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
         <title>Formulaire Acceuil</title>
         <link rel="stylesheet" href="/CSS/style.css">
         <link rel="stylesheet" href="/CSS/Style_Formulaire.css">
 
     </head>
 
-    <body class="font_vert">
+    <body>
         
               
         <div class="marge">
@@ -21,7 +22,7 @@
             </div>
         </div> 
    
-        <div id="marge">
+        <div>
             <h2 class="centre">BONJOUR SOYEZ LES BIENVENUE! </h2><hr> 
         </div>
        
@@ -30,30 +31,30 @@
             <li><a href="/HTML/Formulaire_A_Propos.html ">A props</a></li><li><a href="/HTML/Formulaire_Enregistrement_Patient.html">Enregistrement patient</a></li><li><a href="/HTML/Formulaire_Exploration_Donnees.html">Exploration de données</a></li><li><a href="/HTML/Formulaire_Requette.html">Formulaire de requette</a></li><li><a href="/HTML/Formulaire_Statistiques.html">Statistiques</a></li><li><a href="/HTML/Formulaire_Aides.html">Aides</a></li>
         </ul><hr>
      </div>      
-       <div class="centre">
+       <div id="centre">
             <p style="font-size:100%;"> <strong>Connectez vous avant de continuer</strong> </p>
             <form  action="/action_page.php">
-            <label for="username">Nom d'utilisateur:</label><br />
-            <input type="text" id="username" name="username" /><br />
-            <label for="pwd">Mot de passe:</label><br />
-            <input type="password" id="pwd" name="pwd" /><br />
-            <input type="submit" value="Submit" />
+                <label for="username">Nom d'utilisateur:</label>
+                <input type="text" id="username" name="username" /><br><br>
+                <label for="pwd">Mot de passe:</label>
+                <input type="password" id="pwd" name="pwd" /><br><br>
+                <input type="submit" value="Connectez Connectez-vous"/>
             </form>
             <p  style="font-size:50%;"> <strong> <a href="/HTML/login.html">Inscrivez-vous ICI</a></strong> </p>
        </div><hr>
                
            
-
-    <div>
-        <ul title="Appiez ici pour acceder">
+    <footer>
+        <div>
+            <ul title="Appiez ici pour acceder">
             <li><a href="../index.html">Retour Acceuil</a></li><li><a href="/HTML/Formulaire_Menu_Principal.html">Allez au menu principal</a></li><li><a href="mailto:dralyab2@gmail.com?subject=Prise de contact">Ecrivez-moi</a></li><li><a href="tel:(+223)76240641"> contact mobile</a></li>
          
-    </ul>
+            </ul>
                        
-     </div>                   
-    </div><hr>
+        </div>                   
+           <p id="para_1"> <em>Merci d'avoir visité l'application</em> ! A bientôt <strong>sur notre plateforme</strong></p>
 
-        <p id="para_1"> <em>Merci d'avoir visité l'application</em> ! A bientôt <strong>sur notre plateforme</strong></p>
+    </footer>   
 
 <script src="./Java_script/index.js"> </script>
     </body>

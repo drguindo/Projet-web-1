@@ -1,3 +1,8 @@
+/* couleur de l'arrière plan du body */
+body {
+  background-color: powderblue;
+}
+
 /* mon prémier style  */
 
 .container {
@@ -30,6 +35,12 @@ h1 {
   color: blue;
   font-size: 30px;
 }
+
+#centre {
+  text-align: center;
+  color: blue;
+  font-size: 30px;
+}
 .minuscule {
   text-transform: lowercase;
 }
@@ -38,10 +49,7 @@ h1 {
   font-size: 16px;
   color: blue;
 }
-/* couleur de l'arrière plan du body */
-.font_vert {
-  background-color: powderblue;
-}
+
 /*la couleure de bontton*/
 .BtnConnecter {
   width: 150px;
